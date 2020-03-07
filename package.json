@@ -1,0 +1,39 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "description": "Coates developer challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/105ron/weatherapi.git"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "Rhys",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/105ron/weatherapi/issues"
+  },
+  "homepage": "https://github.com/105ron/weatherapi#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-bigint": "^7.7.4",
+    "@babel/preset-env": "^7.5.5",
+    "@types/node": "^12.6.8",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "package.json"
+    ]
+  }
+}
